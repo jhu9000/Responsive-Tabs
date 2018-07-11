@@ -160,7 +160,7 @@ var RESPONSIVEUI = {};
 							// make this heading active
 							$tabHeading.addClass('responsive-tabs__heading--active');
 
-							var $currentActive = $tabs.children('.responsive-tabs__list__item--active');
+							var $currentActive = $tabs.children('.responsive-tabs__list').children('.responsive-tabs__list__item--active');
 
 							//set the active tab list item (for desktop)
 							$currentActive.removeClass('responsive-tabs__list__item--active');
